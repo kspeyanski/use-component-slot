@@ -2,7 +2,7 @@
   "name": "use-component-slot",
   "description": "React hook for component slot",
   "author": "Kiril Peyanski <kspeyanski@gmail.com>",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "files": [
     "dist"
   ],
