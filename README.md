@@ -1,5 +1,23 @@
 The `useComponentSlot` hooks allows you to easily implement component slots in your React components.
 
+## Installation
+
+pnpm:
+
+```bash
+pnpm add use-component-slot
+```
+
+```bash
+npm install use-component-slot
+```
+
+yarn:
+
+```bash
+yarn add use-component-slot
+```
+
 ## API
 
 The `useComponentSlot` accepts a single argument, which can be either:
