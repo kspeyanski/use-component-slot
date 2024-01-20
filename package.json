@@ -2,15 +2,24 @@
   "name": "use-component-slot",
   "description": "React hook for component slot",
   "author": "Kiril Peyanski <kspeyanski@gmail.com>",
-  "version": "1.1.0",
+  "version": "0.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
   "exports": {
-    "import": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.mjs"
-    },
-    "require": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
     }
   },
   "scripts": {
@@ -28,13 +37,13 @@
     "@testing-library/react": "^14.1.2",
     "vite": "^5.0.12",
     "vite-plugin-dts": "^3.7.1",
-    "vitest": "^1.2.1"
+    "vitest": "^1.2.1",
+    "jsdom": "^23.2.0"
   },
   "keywords": [
     "react",
-    "hook"
-  ],
-  "dependencies": {
-    "jsdom": "^23.2.0"
-  }
+    "hook",
+    "slots",
+    "components"
+  ]
 }
