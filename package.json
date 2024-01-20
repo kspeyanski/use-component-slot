@@ -3,6 +3,10 @@
   "description": "React hook for component slot",
   "author": "Kiril Peyanski <kspeyanski@gmail.com>",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kspeyanski/use-component-slot"
+  },
   "files": [
     "dist"
   ],
